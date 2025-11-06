@@ -45,11 +45,11 @@ function App() {
           in EU/UK, I confirm I have read and understtod the {" "}
           <span className='underline text-white'>Privacy policy</span>
         </p>
-        <img className='max-w-md' src='public/neuron.webp'/>
+        <img className='max-w-md' src='/neuron.webp'/>
       </div>
 
       <div className="flex justify-center gap-5">
-        <img className='bg-[#1e1e1ebb] rounded-lg px-14 py-7' src="public/rewards.webp"/>
+        <img className='bg-[#1e1e1ebb] rounded-lg px-14 py-7' src="/rewards.webp"/>
         <div className="flex-col gap-5 mt-50 space-y-5 ">
         <h1 className="text-3xl">Get rewarded for what you build</h1>
         <p className='text-gray-500 text-lg'>Verify your mini app to become eligible for <br /> builder rewards.</p>
@@ -62,11 +62,11 @@ function App() {
         <h1 className="text-3xl">Get featured on the Base app</h1>
         <p className='text-gray-500 text-2xl'>Increase your chances of being featured in the <br />Base app, meet users where they are, and kickstart <br />your app's growth.</p>
         </div>
-        <img className='bg-[#1e1e1ebb] rounded-lg px-40 py-5' src="public/featured.webp"/>
+        <img className='bg-[#1e1e1ebb] rounded-lg px-40 py-5' src="/featured.webp"/>
         
       </div>
       <div className="flex justify-center gap-5 mt-35 mb-29">
-        <img className='bg-[#1e1e1ebb] rounded-lg p-5 w-120 h-80' src="public/understand.webp"/>
+        <img className='bg-[#1e1e1ebb] rounded-lg p-5 w-120 h-80' src="/understand.webp"/>
         <div className="flex-col gap-5 mt-50 space-y-5 ">
         <h1 className="text-3xl">Make better decisions with data</h1>
         <p className='text-gray-500 text-2xl'>Get real-time analytics to unlock insights,<br /> understand your users, and grow your app.</p>
@@ -74,7 +74,7 @@ function App() {
         </div>
       </div>
       <footer className="bg-[#ffffff] w-full h-30 p-5">
-        <img className="block mx-auto invert" src="public/base-build-logo.webp" />
+        <img className="block mx-auto invert" src="/base-build-logo.webp" />
         <div className='flex gap-5 justify-center text-gray-400'>
           <a href="">Base Docs</a>
           <a href="">Privacy Policy</a>
